@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-27T16:34:45 IST" name="Suite" finished-at="2023-11-27T16:34:45 IST" duration-ms="64">
+    <groups>
+      <group name="Regression">
+        <method signature="TestScript34Test.ts4Test()[pri:0, instance:sdet52.TestScript34Test@4550bb58]" name="ts4Test" class="sdet52.TestScript34Test"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestScript12Test.ts1Test()[pri:0, instance:sdet52.TestScript12Test@131774fe]" name="ts1Test" class="sdet52.TestScript12Test"/>
+        <method signature="TestScript34Test.ts3Test()[pri:0, instance:sdet52.TestScript34Test@4550bb58]" name="ts3Test" class="sdet52.TestScript34Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-11-27T16:34:45 IST" name="Test" finished-at="2023-11-27T16:34:45 IST" duration-ms="64">
+      <class name="sdet52.TestScript12Test">
+        <test-method signature="ts1Test()[pri:0, instance:sdet52.TestScript12Test@131774fe]" started-at="2023-11-27T16:34:45 IST" name="ts1Test" finished-at="2023-11-27T16:34:45 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts1Test -->
+      </class> <!-- sdet52.TestScript12Test -->
+      <class name="sdet52.TestScript34Test">
+        <test-method signature="ts3Test()[pri:0, instance:sdet52.TestScript34Test@4550bb58]" started-at="2023-11-27T16:34:45 IST" name="ts3Test" finished-at="2023-11-27T16:34:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts3Test -->
+        <test-method signature="ts4Test()[pri:0, instance:sdet52.TestScript34Test@4550bb58]" started-at="2023-11-27T16:34:45 IST" name="ts4Test" finished-at="2023-11-27T16:34:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts4Test -->
+      </class> <!-- sdet52.TestScript34Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
